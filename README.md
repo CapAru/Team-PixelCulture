@@ -1,4 +1,4 @@
-# Team-PixelCulture
+# Project: Cultural Canvas | Team: PixelCulture 
 # PROBLEM STATEMENT:
 India's diverse cultural heritage, spanning each state, can be challenging for tourists to navigate.
 This complexity makes it hard for visitors to identify key attractions, local cuisines, and cultural nuances, posing hurdles in their travel experience.
