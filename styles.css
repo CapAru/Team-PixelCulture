@@ -1,0 +1,176 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	color: #435334;
+	padding: 0 15% 5%;
+}
+
+.navi {
+    color: #435334;    
+}
+.navi:hover{
+    color: #CEDEBD;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.5;
+}
+
+h2 {
+	font-family: "Ubuntu", serif;
+	font-size: 2rem;
+	padding-bottom: 3%;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+}
+
+.heading {
+	margin: 10px;
+	font-size: 4rem;
+}
+
+/* Header */
+.container-fluid {
+	padding: 3% 10%;
+}
+
+#brand {
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.5rem;
+}
+
+#title {
+	background-color: #FAF1E4;
+	font-family: 'Ubuntu', sans-serif;
+	color: #435334;
+	padding: 0 0 5%;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2867, 83, 52, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.row {
+	padding-top: 1.5rem;
+}
+
+.nav-item {
+	padding: 0 18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+button {
+	margin: 1.5rem;
+}
+
+.title-img {
+	width: 500px;
+	position: absolute;
+	transform: rotate(10deg);
+}
+
+@media (max-width: 1050px) {
+	.title-img {
+		width: 350px;
+		position: static;
+		transform: rotate(0deg);
+	}
+
+	#title {
+		text-align: center;
+	}
+
+}
+
+/* Features */
+
+.features {
+	background-color: white;
+	position: relative;
+	text-align: center;
+}
+
+.icon {
+	color: #789461;
+}
+
+.icon:hover {
+	color: #FAF1E4;
+}
+
+/* Testimonials */
+
+#testimonials {
+	padding: 7% 25%;
+	background-color: #789461;
+	color: #fff;
+	text-align: center;
+}
+
+.img {
+	width: 10%;
+	border-radius: 100%;
+}
+
+
+/* Pricing */
+
+.price-desc {
+	padding: 0;
+}
+
+.price-head {
+	padding: 3% 0 0;
+}
+
+#pricing {
+	text-align: center;
+}
+
+.sign-btn {
+	background-color: #789461;
+	border: #789461;
+	color: #ffffff;
+}
+
+.sign-btn:hover {
+	background-color: #FAF1E4;
+	border: #789461;
+	color: #ffffff;
+
+}
+
+.sign-btn:active {
+	background-color: black;
+}
+
+.card3 {
+	background-color: #789461;
+}
+
+/* cta */
+
+#cta {
+	background-color: #FAF1E4;
+	text-align: center;
+	padding: 5% 3%;
+	color: #435334;
+}
+
+/* footer */
+
+#footer {
+	text-align: center;
+	padding: 3% 0 0;
+}
+
+.contact-logo {
+	margin: 2%
+}
