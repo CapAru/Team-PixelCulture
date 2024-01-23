@@ -7,7 +7,7 @@ This complexity makes it hard for visitors to identify key attractions, local cu
 Introducing 'Cultural Canvas', the ultimate platform for comprehensive tourist and culture information in India. <br>
 Our website will be dedicated to providing in-depth details, ensuring a satisfying exploration of any area with cuisines, handicrafts, heritage wonders, and biodiversity hotspots and more. Embrace the richness of India through 'Cultural Canvas'.
 
-# TARGETED UN SUSTAINABLE DEVELOPMENT GOALS:
+# TARGETED UNITED NATION'S SUSTAINABLE DEVELOPMENT GOALS:
 GOAL 8: Decent Work and Economic Growth <br>
 GOAL 10: Reduced Inequalities<br>
 GOAL 11: Sustainable Cities and Communities<br>
