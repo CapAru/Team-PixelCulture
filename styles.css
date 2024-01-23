@@ -22,17 +22,17 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
 	font-family: "Ubuntu", serif;
-	font-size: 2rem;
+	font-size: 150%;
 	padding-bottom: 3%;
 }
 
 h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.5 rem;
 }
 
 .heading {
-	margin: 10px;
+	margin: 0.0625rem;
 	font-size: 4rem;
 }
 
@@ -62,7 +62,7 @@ h3 {
 }
 
 .nav-item {
-	padding: 0 18px;
+	padding: 0 1.125rem;
 	font-family: 'Ubuntu', sans-serif;
 }
 
@@ -76,18 +76,7 @@ button {
 	transform: rotate(10deg);
 }
 
-@media (max-width: 1050px) {
-	.title-img {
-		width: 350px;
-		position: static;
-		transform: rotate(0deg);
-	}
 
-	#title {
-		text-align: center;
-	}
-
-}
 
 /* Features */
 
@@ -173,4 +162,42 @@ button {
 
 .contact-logo {
 	margin: 2%
+}
+
+/* Mobile View */
+
+@media (max-width: 1050px) {
+	.title-img {
+		width: 100%;
+		position: static;
+		transform: rotate(0deg);
+	}
+
+	#title {
+		text-align: center;
+	}
+		
+	h2 {
+		font-family: "Ubuntu", serif;
+		font-size: 2rem;
+		padding-bottom: 3%;
+	}
+
+	h3 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 3rem;
+	}
+
+	p {
+		font-size: 2rem;		
+	}
+
+	.heading {
+		margin: 1.5rem;
+		font-size: 4rem;
+	}
+
+	#pricing {
+		font-size: 2rem;
+	}
 }
