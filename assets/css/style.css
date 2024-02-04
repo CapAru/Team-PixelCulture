@@ -458,8 +458,7 @@ h6,
     height: calc(100vh - 72px);
   }
   #hero .hero-img img {
-  height: 300px;
-  margin-left: 40px;
+  margin: 0px;
   }
   #hero .animated {
     animation: none;
