@@ -1056,7 +1056,7 @@ section {
   position: absolute;
   left: 100%;
   right: 0;
-  top: 0;
+  top: 64%;
   bottom: 0;
   transition: all ease-in-out 0.3s;
   z-index: 2;
