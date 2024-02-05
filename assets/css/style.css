@@ -1052,11 +1052,11 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(122, 105, 96, 0.6);
+  background: rgba(140, 70, 70, 0.85);
   position: absolute;
   left: 100%;
   right: 0;
-  top: 0;
+  top: 68%;
   bottom: 0;
   transition: all ease-in-out 0.3s;
   z-index: 2;
