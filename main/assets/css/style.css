@@ -117,6 +117,15 @@ h6,
   opacity: 1;
 }
 
+.button {
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  border-width: 0;
+}
+
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
