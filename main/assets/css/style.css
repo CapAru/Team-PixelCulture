@@ -416,7 +416,7 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 100%;
   background: #faf1e4;
   border-bottom: 2px solid #fcebe3;
   margin: 0px 0 -72px 0;
@@ -528,7 +528,7 @@ h6,
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 7% 0;
   overflow: hidden;
 }
 
@@ -1220,7 +1220,7 @@ section {
 --------------------------------------------------------------*/
 .image {
   padding: 0;
-  height: 32rem;
+  height: 100%;
 }
 
 .h_image {
