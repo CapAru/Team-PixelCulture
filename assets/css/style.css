@@ -1406,3 +1406,13 @@ section {
     padding: 3px 0;
   }
 }
+
+/* Art Section */
+.photoclassart{
+  height: 15px;
+  padding: 0% 2% 4% 1%;
+}
+
+.textclassart{
+  padding: 5% 1% 2% 2%;
+}
