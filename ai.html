@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Food - Cultural Canvas</title>
+    <title>Cultural Canvas</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Favicons -->
@@ -39,18 +39,18 @@
                         <span>Cultural Canvas</span>
                     </a>
                 </h1>
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                <!-- <a href="index.html"><img src="main/assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
             <nav id="navbar" class="navbar">
                 <ul>
                     <li>
-                        <a class="nav-link scrollto" href="../">Home</a>
+                        <a class="nav-link scrollto active" href="../">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto " href="../places.html">Places</a>
+                        <a class="nav-link scrollto" href="../places.html">Places</a>
                     </li>
                     <li>
-                        <a class="nav-link scrollto active" href="../food.html">Food</a>
+                        <a class="nav-link scrollto" href="../food.html">Food</a>
                     </li>
                     <li>
                         <a class="nav-link scrollto" href="../art.html">Art</a>
@@ -65,132 +65,81 @@
         </div>
     </header>
     <!-- End Header -->
-    <main id="main">
-        <!-- ======= art Section ======= -->
-        <section id="art" class="art">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>Food</h2>
-                    <p>Discover the delicacies of rich and diverse culinary traditions of Indian cuisins and food.</p>
+    <!-- ======= Search Bar ======= -->
+    <div>
+        <input type="text" id="place" title="place" placeholder=""><br>
+        <button onclick="generateLetter()">Generate </button>
+        <h2> Template:</h2>
+        <textarea id="letter-template" readonly></textarea>
+    </div>
+    <script>
+        function redirectToPlace() {
+            var place = document.getElementById("searchInput").value;
+
+            if (place.trim() !== "") {
+                window.location.href = "/places/" + encodeURIComponent(place) + ".html";
+            } else {
+                alert("Please enter a place");
+            }
+            return false;
+        }
+    </script>
+
+
+    <script type="importmap">
+    {
+      "imports": {
+        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+      }
+    }
+  </script>
+    <script type="module">
+        import { GoogleGenerativeAI } from "@google/generative-ai";
+
+        // Access your API key (see "Set up your API key" above)
+        const genAI = new GoogleGenerativeAI(API_KEY);
+
+        async function run() {
+            // For text-only input, use the gemini-pro model
+            const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+
+            const prompt = "Write a story about a magic backpack."
+
+            const result = await model.generateContent(prompt);
+            const response = await result.response;
+            const text = response.text();
+            console.log(text);
+        }
+
+        run();
+    </script>
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1>Canvas of India!</h1>
+                    <h2>Explore the Hidden Gems of India</h2>
+                    <div>
+                        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                    </div>
                 </div>
-                <div class="row gy-5">
-
-                    <div id="artbox" class="col-xl-6 col-md-6 icon-box art-box position-relative">
-                        <h4>
-                            Rasgulla
-                        </h4>
-
-                        <p class="description">Rasgulla is a syrupy dessert made from ball-shaped dumplings of chhena
-                            dough,
-                            cooked in light sugar syrup. This is done until the syrup permeates the dumplings.
-
-                            While it is near-universally agreed upon that the dessert originated in the eastern Indian
-                            subcontinent, the exact locus of origin is disputed between locations such as West
-                            Bengal and Odisha.</p>
-
+                <div id="home" class="col-lg-6 order-1 order-lg-2 hero-img carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item img" data-bs-interval="2000">
+                            <img src="main/assets/img/art/img1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="carousel-item img" data-bs-interval="2000">
+                            <img src="main/assets/img/art/img3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="carousel-item active img" data-bs-interval="2000">
+                            <img src="main/assets/img/pot.png" class="img-fluid" alt="">
+                        </div>
                     </div>
-                    <div id="artbox" class="col-xl-6 col-md-6 art-box position-relative">
-                        <iframe width="100%" height="315"
-                            src="https://www.youtube.com/embed/c_ZkvfLuCsE?si=0r2f2FUGdg-Zz9zD"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-
-
-                </div>
-
-
-                <hr>
-
-
-                <div class="row gy-5">
-
-
-                    <div id="artbox" class="col-xl-6 col-md-6 art-box position-relative">
-                        <iframe width="100%" height="315"
-                            src="https://www.youtube.com/embed/Ag9Id4Wiv90?si=gQHIJfSa25OF_FLl"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div id="artbox" class="col-xl-6 col-md-6 icon-box art-box position-relative">
-                        <h4>
-                            Sandesh
-                        </h4>
-
-                        <p class="description">Sandesh (Bengali: সন্দেশ Shôndesh) is a dessert, originating from the
-                            Bengal region in the eastern part of the Indian subcontinent, created with milk and
-                            sugar. Some recipes of sandesh call for the use of chhena or paneer (which is made by
-                            curdling the milk and separating the whey from it) instead of milk itself. Some people in
-                            the region of Dhaka make a form of sandesh called pranahara (literally 'heart stealer')
-                            which is softer and made with mawa and yogurt. The Gupo/Gufo style of sandesh from
-                            Guptipara is considered by some to be the "first branded sweet of Bengal".</p>
-
-                    </div>
-
-
-                </div>
-                <hr>
-                <div class="row gy-5">
-
-                    <div id="artbox" class="col-xl-6 col-md-6 icon-box art-box position-relative">
-                        <h4>
-                            Machher Jhol
-                        </h4>
-
-                        <p class="description">
-                            Macher jhol is one of the simplest Fish curry recipes that can be made in almost every
-                            Bengali household.
-                            This gravy is so easy to make and can be made in just a few minutes with the ingredients in
-                            your pantry.
-                            Macher jhol is best served with steamed white rice and can be made with vegetables such as
-                            potato and brinjal to add more flavor and aroma to the fish curry. This fish curry recipe is
-                            made in every Bengal household and is ideal for our daily meals.</p>
-
-                    </div>
-                    <div id="artbox" class="col-xl-6 col-md-6 art-box position-relative">
-                        <iframe width="100%" height="315"
-                            src="https://www.youtube.com/embed/RZB9fWAtZGg?si=2Xo3tkM42MynNjcS"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-
-
-                </div>
-                <hr>
-                <div class="row gy-5">
-
-
-                    <div id="artbox" class="col-xl-6 col-md-6 art-box position-relative">
-                        <iframe width="100%" height="315"
-                            src="https://www.youtube.com/embed/7OSq3WMHPHk?si=EXClEyrh8U8EQ-1u"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-                    <div id="artbox" class="col-xl-6 col-md-6 icon-box art-box position-relative">
-                        <h4>
-                            Bengali Luchi
-                        </h4>
-
-                        <p class="description">Luchi is a popular Bengali style poori made from unleavened dough
-                            consisting of all-purpose flour, water, and salt. The dough is rolled into small discs and
-                            then deep-fried until it puffs up and achieves a golden brown color.
-                            Best served with side dishes like potato curry or cholar dal, Luchi is a delicious and
-                            traditional Bengali breakfast item.</p>
-
-                    </div>
-
-
                 </div>
             </div>
-            </div>
-        </section>
-    </main>
+    </section>
     <!-- End #main -->
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -209,7 +158,7 @@
                         <ul>
                             <li>
                                 <i class="bx bx-chevron-right"></i>
-                                <a href="../">Home</a>
+                                <a href="#">Home</a>
                             </li>
                             <li>
                                 <i class="bx bx-chevron-right"></i>
@@ -232,7 +181,9 @@
                     <div class="col-lg-4 col-md-6 footer-links">
                         <h4>Our Social Networks</h4>
                         <p>Stay connected and never miss a beat!<br>Follow us for latest updates, exclusive content and
-                            more. <br>Join our community today!</p>
+                            more.
+                            <br>Join our community today!
+                        </p>
                         <div class="social-links mt-3">
                             <a href="#" class="X">
                                 <i class="fa-brands fa-x-twitter"></i>

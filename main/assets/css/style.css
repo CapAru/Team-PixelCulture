@@ -1428,3 +1428,29 @@ section {
 .textclassart {
   padding: 5% 1% 2% 2%;
 }
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #000000;
+  border-width: 7px;
+  margin: 50px auto;
+  width: 4%;
+}
+
+.art-box {
+  padding: 30px;
+  position: absolute;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+}
+
+.art-box:hover {
+  transform: translateY(-5px);
+  border-color: #CE5A67;
+}
