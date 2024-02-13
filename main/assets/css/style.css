@@ -125,6 +125,37 @@ h6,
   border-width: 0;
 }
 
+/*--------------------------------------------------------------
+# Bot
+--------------------------------------------------------------*/
+.bot-top {
+  position: fixed;
+  visibility: visible;
+  opacity: 1;
+  right: 15px;
+  bottom: 60px;
+  z-index: 99999;
+  background: #CE5A67;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.bot-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.bot-top:hover {
+  background: #ee7843;
+  color: #fff;
+}
+
+.bot-top.active {
+  visibility: visible;
+  opacity: 1;
+}
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices

@@ -28,6 +28,21 @@
     <!-- Template Main CSS File -->
     <link href="main/assets/css/style.css" rel="stylesheet">
 </head>
+<style>
+    .loader {
+        position: fixed;
+        background-color: #FFF;
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+</style>
+<div class="loader">
+    Your Content For Load Screen
+</div>
 
 <body>
     <!-- ======= Header ======= -->
@@ -215,6 +230,9 @@
             <div class="credits"> Designed with ❤️ for INDIA. </div>
     </footer>
     <!-- End Footer -->
+    <a href="https://bot.culturalcanvas.dev/" class="bot-top d-flex align-items-center justify-content-center">
+        <i class="fa-solid fa-comments"></i>
+    </a>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
         <i class="bi bi-arrow-up-short"></i>
     </a>
@@ -233,5 +251,37 @@
     <!-- Template Main JS File -->
     <script src="../main/assets/js/main.js"></script>
 </body>
+<style>
+    .loader {
+        -webkit-animation: load-out 1s;
+        animation: load-out 1s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+
+    @-webkit-keyframes load-out {
+        from {
+            top: 0;
+            opacity: 1;
+        }
+
+        to {
+            top: 100%;
+            opacity: 0;
+        }
+    }
+
+    @keyframes load-out {
+        from {
+            top: 0;
+            opacity: 1;
+        }
+
+        to {
+            top: 100%;
+            opacity: 0;
+        }
+    }
+</style>
 
 </html>
