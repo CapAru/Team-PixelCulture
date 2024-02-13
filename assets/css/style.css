@@ -1445,3 +1445,9 @@ section {
   visibility: visible;
   opacity: 1;
 }
+
+
+#place-img {
+  width: 100%;
+  height: 300px;
+}
