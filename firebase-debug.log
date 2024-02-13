@@ -26,3 +26,17 @@ You're about to initialize a Firebase project in this directory:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
+[debug] [2024-02-12T18:36:12.631Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-12T18:36:13.676Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-12T18:36:13.676Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project culturalcanvas-21286 (CulturalCanvas) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-12T18:36:19.161Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/culturalcanvas-21286 [none]
+[debug] [2024-02-12T18:36:19.746Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/culturalcanvas-21286 200
+[debug] [2024-02-12T18:36:19.747Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/culturalcanvas-21286 {"projectId":"culturalcanvas-21286","projectNumber":"123738566601","displayName":"CulturalCanvas","name":"projects/culturalcanvas-21286","resources":{"hostingSite":"culturalcanvas-21286","realtimeDatabaseInstance":"culturalcanvas-21286-default-rtdb"},"state":"ACTIVE","etag":"1_9c5c6222-8e85-4ca4-895f-2095b2fc877b"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
