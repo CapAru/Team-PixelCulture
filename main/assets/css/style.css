@@ -491,12 +491,12 @@ h6,
 
 #hero .hero-img img {
   height: 300px;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 @media (max-width: 991px) {
   #hero {
-    height: calc(100vh - 72px);
+    height: 100%;
   }
 
   #hero .hero-img img {
