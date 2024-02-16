@@ -788,7 +788,7 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0;
+  padding: 0;
 }
 
 .team .member {
@@ -1484,4 +1484,34 @@ hr {
 .art-box:hover {
   transform: translateY(-5px);
   border-color: #CE5A67;
+}
+.team-description {
+  font-size: 15px;
+  padding: 1px;
+  width: auto;
+  line-height: 24px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.services .desc {
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 0 0;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+  width: 100%;
+}
+.services .desc:hover {
+  transform: translateY(-5px);
+  border-color: #CE5A67;
+}
+#descript {
+  padding: 0;
+  overflow: hidden;
 }
