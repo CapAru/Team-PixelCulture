@@ -1260,7 +1260,7 @@ section {
   margin-right: auto;
   width: 60%;
 }
-@media screen and (max-width: 720px){
+@media (max-width: 768px){
   .h_image {
     display: block;
     margin-left: auto;
