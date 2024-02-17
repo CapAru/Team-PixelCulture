@@ -1260,7 +1260,14 @@ section {
   margin-right: auto;
   width: 60%;
 }
-
+@media screen and (max-width: 720px){
+  .h_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
 #info .h_title {
   font-family: protest revolution;
   font-size: 50px;
