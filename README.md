@@ -1,19 +1,21 @@
 # Project: Cultural Canvas | Team: PixelCulture 
 # PROBLEM STATEMENT:
-India's diverse cultural heritage, spanning each state, can be challenging for tourists to navigate.<br>
-This complexity makes it hard for visitors to identify key attractions, local cuisines, and cultural nuances, posing hurdles in their travel experience.
+Bengal's diverse cultural heritage can be challenging for tourists to navigate. Also, local artists and small businesses don't get to showcase their talents and skills to a wider community. This complexity makes it hard for visitors to identify key attractions, local cuisines, and cultural nuances, posing hurdles in their travel experience as well as challenges for the artists to sustain their households, depending on their skills
 
 # SOLUTION:
-Introducing 'Cultural Canvas', the ultimate platform for comprehensive tourist and culture information in India. <br>
-Our website will be dedicated to providing in-depth details, ensuring a satisfying exploration of any area with cuisines, handicrafts, heritage wonders, and biodiversity hotspots and more. Embrace the richness of India through 'Cultural Canvas'.
+Introducing Cultural Canvas – a platform dedicated to promoting the local artists, food, culture, and tourism in West Bengal, India. We believe in not just showcasing the beauty of Bengal, but also in contributing to the UN Sustainable Development Goals for the welfare of people, both locally and globally.
+
+# How to use?
+You can access the website at https://culturalcanvas.dev/
 
 # TARGETED UNITED NATION'S SUSTAINABLE DEVELOPMENT GOALS:
-GOAL 8: Decent Work and Economic Growth <br>
-GOAL 10: Reduced Inequalities<br>
-GOAL 11: Sustainable Cities and Communities<br>
-GOAL 17: Partnerships for the Goals<br>
+SDG 8: Decent Work and Economic Growth <br>
+SDG 9: Industry, Innovation, and Infrastructure<br>
+SDG 12: Responsible Consumption and Production<br>
+
 
 # Important Links:
 Presentation - https://docs.google.com/presentation/d/12IYkoAVYxlbKu0HldcGVm1g-e9Pj0H_aX5i1eWb1508/edit?usp=sharing <br>
-YouTube Video - https://youtu.be/SUG4oQS7kbg?si=J_c1ZWY8LZ-xmUoS <br>
-Website - https://caparu.github.io/Team-PixelCulture/
+YouTube Video -  <br>
+Website - https://culturalcanvas.dev/
+Chatbot - https://bot.culturalcanvas.dev/
