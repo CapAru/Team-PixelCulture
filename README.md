@@ -16,6 +16,6 @@ SDG 12: Responsible Consumption and Production<br>
 
 # Important Links:
 Presentation - https://docs.google.com/presentation/d/12IYkoAVYxlbKu0HldcGVm1g-e9Pj0H_aX5i1eWb1508/edit?usp=sharing <br>
-YouTube Video -  <br>
+YouTube Video -  https://youtu.be/QAeSYNP9EuU?si=tXyUKtBkk98T4-lk<br>
 Website - https://culturalcanvas.dev/
 Chatbot - https://bot.culturalcanvas.dev/
