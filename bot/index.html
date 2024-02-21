@@ -1,0 +1,30 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <div>
+        <form action="/" method="post">
+            <label for="query">You:</label>
+            <input type="text" id="query" name="query" placeholder="Ask me something...">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    {% if user_query %}
+    <div>
+        <p>You: {{ user_query }}</p>
+    </div>
+    {% endif %}
+    {% if bot_response %}
+    <div>
+        <p>Bot: {{ bot_response }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>
